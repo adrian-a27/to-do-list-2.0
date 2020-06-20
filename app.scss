@@ -1,0 +1,10 @@
+// Import your theme variables
+@import "my-theme";
+
+// Import MDC Web components
+@use "@material/typography/mdc-typography";
+@use "@material/button";
+@include button.core-styles;
+
+// Import your components for your application
+@import "my-components";
